@@ -1,0 +1,176 @@
+
+header {
+	background: url('bg.png');
+	background-size: 60%;
+}
+
+#title h1 {
+	position: absolute;
+	top: 70px;
+	color: rbg(255,255,255,1);
+	font-family: sans-serif;
+	display: inline;
+}
+
+#title h2 {
+	position: absolute;
+	top: 120px;
+	color: rbg(255,255,255,1);
+	font-family: sans-serif;
+	display: inline;
+	position: absolute;
+}
+
+.avatar {
+	width: 120px;
+	margin: 60px 30px 60px 0px;
+	border-radius: 50px;
+}
+
+#title {
+	width: 800px;
+	margin: 0 auto;
+}
+
+nav {
+	text-align: center;
+	padding: 10px 0px;
+	background-color: black;
+	overflow: hidden;
+	width: 100%;
+}
+
+nav a {
+	padding: 10px 30px;
+	text-decoration: none;
+	color: white;
+	overflow: hidden;
+	position: relative;
+	font-size: 25px;
+}
+
+nav a:hover {
+	background-color: white;
+	color: black;
+}
+
+#hai_title {
+	text-align: center;
+	font-family: sans-serif, inherit;
+}
+#ngan_title {
+	text-align: center;
+	font-family: sans-serif, inherit;
+}
+
+#face {
+	width: 40%;
+}
+
+#image {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	padding-top: 60px;
+}
+
+#flex_container {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+#left_side {
+	flex: 40%;
+	background-color: skyblue;
+	padding: 0px 10px;
+}
+
+
+#right_side {
+	flex: 40%;
+	padding: 0px 10px;
+	background-color: lightpink;
+
+}
+#right_side img {
+	width: 100%;
+	height: 90%;
+	padding: 10px 10px;
+}
+#body {
+	padding: 30px 290px 30px 290px;
+}
+
+#error {
+	color: red;
+}
+
+#body h1 {
+	text-align: center;
+}
+
+#img {
+	flex: 33%;
+}
+
+#about {
+	text-align: center;
+	font-size: 34px;
+}
+
+#title_word {
+	text-align: center;
+}
+
+#img img {
+	width: 50%;
+}
+
+
+footer {
+	padding: 10px 10px ;
+	background-color: black;
+	color: white;
+}
+
+#footer {
+	text-align: center;
+}
+
+/* #footerimg {
+	padding-left: 720px;
+} */
+#footer a:hover {
+	color: whitesmoke;
+}
+@media(max-width:1000px) {
+	nav a {
+		display: block;
+	}
+	#left_side {
+		flex: 100%;
+	}
+
+	#right_side {
+		flex: 100%;
+	}
+	#flex_container{
+		flex-wrap: wrap;
+	}
+	#course_item {
+		flex: 50%;
+	}
+	#body {
+		padding: 30px 30px 30px 30px;
+	}
+
+	#title h1 {
+		top: 60px;
+		font-size: 26px;
+	}
+
+	#title h2 {
+		top: 130px;
+		font-size: 16px;
+	}
+}
